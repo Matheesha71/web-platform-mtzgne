@@ -1,0 +1,116 @@
+/*  font */
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;900&display=swap" rel="stylesheet" />
+
+/* Reset */
+* {
+    /* Alternative box model */
+    box-sizing: border-box;
+
+    /* Reset padding and marging on all elements */
+    padding: 0;
+    margin: 0;
+}
+
+    list-style: none;
+    html {
+        font-size: 18px;
+    }
+
+    h1 {
+       padding-top: 2rem;
+        text-align: center ;
+    }
+
+    body {
+    font-family: 'poppins', sans-serif;
+    background-color: rgb(226, 227, 228);
+    color: rgb(19, 42, 59);
+    margin: 12px;
+    }
+    
+    header {
+        background-color: rgb(38, 38, 60); 
+        color: white;
+        border-radius: 10px;
+    }
+
+    p {
+         display: block;
+    }
+    
+    
+    .heading {
+        display: flex;
+        text-align: center;
+        padding: 10px;
+    }
+
+    p.info {
+        padding: .5rem;
+        text-align: center;
+        margin: 0;
+    }
+    
+    div {
+        margin-bottom: 20px;
+    }
+
+    #container {
+        min-height: 100vh;
+        display: flex;
+        padding-left: 5rem;
+    }
+
+    .left-side {
+        width: 100vw;
+        padding-left: 1rem;
+    }
+
+    .right-side {
+        width: 100vw;
+        padding-left: 1rem;
+    }
+
+    .bottom {
+        width: 100vw;
+        padding-left: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    p.main {
+        font-weight: 600;
+    }
+
+    p.faded {
+    font-weight: 600;
+    color: cadetblue;
+    }
+
+    div.faded {
+        font-weight: 600;
+        color: cadetblue;
+    }
+
+    ul {
+        list-style: disc;
+        line-height: 2rem;
+    }
+    
+    ul.refrees {
+        display: flexbox;
+    }
+
+    ul.bullet {
+        list-style: square;
+    }
+
+
+   p img {
+        height: 1rem;
+    }
